@@ -19,13 +19,13 @@
     <repository>
       <id>deploy</id>
       <name>ccard-releases</name>
-      <url>http://192.168.56.101:8081/nexus/content/repositories/ccard-releases</url>
+      <url>http://192.168.56.101:8081/nexus/content/repositories/releases</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <id>deploy</id>
       <name>ccard-snapshots</name>
-      <url>http://192.168.56.101:8081/nexus/content/repositories/ccard-snapshots</url>
+      <url>http://192.168.56.101:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
